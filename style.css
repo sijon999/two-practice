@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    background: black;
+    font-size: 26px;
+}
+
+.navbar {
+    position:sticky;
+    padding: 30px 40px;
+    background: rgb(83, 28, 28);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(243, 243, 243);
+
+}
+
+.logo {
+    font-size: 40px;
+    width: 500px;
+    color: rgb(253, 253, 1);
+}
+
+.nav ul {
+    display: flex;
+    padding: 20px;
+}
+
+.nav ul li {
+    padding-right: 20px;
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.container {
+    background: #272525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.image {
+    width: 30%;
+
+}
+
+.details {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.start {
+    padding-bottom: 15px;
+}
+.details-j {
+    padding-bottom: 40px;
+}
+
+.name {
+    color:rgb(247, 68, 68);
+    padding-bottom: 15px;
+}
+
+.hire {
+    text-decoration: none;
+    color: bisque;
+    border: 2px solid red;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+.works {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.work {
+    padding: 20px;
+    background: rgb(39,37,37);
+    margin: 10px;
+}
+
+.work p {
+    padding: 10px;
+}
+
+.wid {
+    width: 350px;
+}
+
+.vm {
+    text-decoration: none;
+    border:2px solid red;
+    color: rgb(255, 255, 255);
+    padding: 3px 8px;
+    font-size: 18px;
+    border-radius: 5px;
+}
